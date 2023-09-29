@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import FetchComponent from './FetchComponent';
 const App = () => {
   const baseUrl = "https://api.spotify.com/v1";
-  const trackEndpoint = "/me/top/tracks?time_range=medium_term&limit=8";
+  const trackEndpoint = "/me/top/tracks?time_range=medium_term&limit=5";
   const artistEndpoint = "/me/top/artists?time_range=medium_term&limit=5";
   const trackInfo = FetchComponent(baseUrl, trackEndpoint);
   const artistInfo = FetchComponent(baseUrl, artistEndpoint);
