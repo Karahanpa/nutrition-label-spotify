@@ -1,13 +1,99 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+  font-size:16px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  margin:0 auto;
+  display:flex;
+  justify-content:space-between;
+}
+
+.label {
+  border:2px solid black;
+  margin:2px auto;
+  width:270px;
+  padding:0 7px;
+}
+
+.divider {
+  border-bottom: 1px solid #888989;
+  margin: 1px 0;
+}
+
+h1 {
+  margin:0;
+}
+
+.bold {
+  font-weight:800;
+}
+
+.large {
+  height:10px;
+  margin:2px auto;
+}
+
+.medium {
+  height:5px;
+  margin:4px auto;
+}
+
+.large, .medium {
+  background-color:black;
+  border:0;
+}
+
+.small-text {
+  font-size:0.85rem;
+}
+
+.calorie-info h2 {
+  margin:0;
+  justify-content:space-between;
+}
+
+.container-left p {
+  font-size:2em;
+  font-weight:700;
+  margin:-6px -2px;
+}
+
+.right {
+  justify-content:flex-end;
+}
+
+.daily-value p:not(.no-divider) {
+  border-bottom: 1px solid #888989;
+}
+
+.indent {
+  margin-left:1em;
+  margin-top:3px;
+}
+
+.double-indent {
+  margin-left:2em;
+}
+
+.note {
+  font-size: 0.6rem;
+  margin: 5px 0;
+  padding: 0 8px;
+  text-indent:-8px;
+}
+
+.calorie-info h2 {
+  margin:0 auto;
+  display:flex;
+  justify-content:space-between;
+}
+
+.genre {
+   margin:0 auto;
+  display:flex;
+  justify-content:space-between;
 }
