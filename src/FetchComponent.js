@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 const FetchComponent = (baseUrl, endpoint) => {
     const [data, setData] = useState([]);
-    const token = 'BQB-VtUrFTK90CuPCQNu6G7ZNl8ku1eVfDzxeohCGzfeVz911Ro8tMEK4bkwiI--tEKG6idXwqBewpi6dogj2NEa0oCRGQ18GAt6oLc9GCLaV6As7uVomqN73jHunYDGya9HdXXzcr18EcLQrt72KRyzQou8I2Xp1Q5BXt9XuS-FcpVQBuUL-MVsswREM-1VOOorgeX1rtZUDnQ_4e1nmUV2LTFC4DAe9xtb7r_BfJ5sJgZVit7eCfRS4ykD9U8bEb3eFg';
+    const token = 'BQAls5PVfIDrHSM7FfeEBATYR_YmDHxVU_xo3sLHv0WwbBubmANCBPGlsi14t0hU82fwDwRO4JPHqZamxm9Kzg3zOVmeONYzv8HqqSdpzxTPWNLztrqjfzKwxl1VmaTxhXcxYzsp9HrmQapfiXEKJ-zf0UQG4Mud4ZDnoF0FTSnFBhrUEs47jJqubKzbNrCO0oAtLUXa3jATimm7-qMCabjAx8nJjEm9Qq26ZKyVnJXbYxqTnliCre3ogrvPnjgCfDG00A';
   
     useEffect(() => {
       const fetchData = async () => {
